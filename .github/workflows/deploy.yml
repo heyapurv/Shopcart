@@ -1,8 +1,7 @@
 name: "Deploy to AWS"
 
 # Trigger the workflow from GitHub UI
-on: 
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs: 
   deploy:
